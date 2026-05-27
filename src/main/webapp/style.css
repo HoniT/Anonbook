@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4A55A2;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #5bb4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.btn-primary:hover {
+    background-color: #4a9dec;
+}
+
+.post-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.post-header {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.post-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-view {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-view:hover {
+    background-color: #eee;
+}
+
+#addPostFormContainer {
+    display: none;
+    background-color: white;
+    border: 1px solid #aaa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.file-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.add-comment-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.add-comment-wrapper textarea {
+    height: 40px;
+    margin-bottom: 0;
+}
+
+.add-comment-wrapper button {
+    padding: 0 20px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}

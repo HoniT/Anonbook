@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anonbook - Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>ANONBOOK</header>
+
+<div class="container">
+  <div id="singlePostContainer" class="post-card">
+    <p>Loading post...</p>
+  </div>
+
+  <div class="comments-section">
+    <h4>Comments:</h4>
+    <ul class="comment-list" id="commentList">
+    </ul>
+
+    <form id="addCommentForm" class="add-comment-wrapper">
+      <label for="commentContent"></label><textarea id="commentContent" placeholder="Write some comment here..." required></textarea>
+      <button type="submit">Add</button>
+    </form>
+  </div>
+</div>
+
+<script src="post.js"></script>
+</body>
+</html>

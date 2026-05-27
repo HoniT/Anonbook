@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonbook - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>ANONBOOK</header>
+
+<div class="container">
+    <button class="btn-primary" id="togglePostFormBtn">Add Post</button>
+
+    <div id="addPostFormContainer">
+        <h3 style="text-align: center; margin-top: 0;">Add New Post</h3>
+        <form id="addPostForm">
+            <label for="postContent"></label><textarea id="postContent" placeholder="Write some post here..." required></textarea>
+            <div class="file-input-wrapper">
+                <input type="file" id="postFile" accept=".jpg" />
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <div id="postsContainer"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -9,6 +9,7 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 public class PostResponseDto {
+    private Integer id;
     private String content;
     private String imagePath;
     private Date createdAt;

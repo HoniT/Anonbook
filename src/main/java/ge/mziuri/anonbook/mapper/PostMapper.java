@@ -12,7 +12,7 @@ public class PostMapper {
     }
 
     public static PostResponseDto toResponseDto(Post entity) {
-        return new PostResponseDto(entity.getContent(), entity.getImagePath(), entity.getCreatedAt(),
+        return new PostResponseDto(entity.getId(), entity.getContent(), entity.getImagePath(), entity.getCreatedAt(),
             entity.getComments().stream().map(CommentMapper::toResponseDto).toList());
     }
 }
